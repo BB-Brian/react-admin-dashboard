@@ -1,0 +1,35 @@
+.top-bar {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+}
+.top-bar-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  background: rgb(12,8,28);
+  background: linear-gradient(138deg, rgba(12,8,28,1) 54%, rgba(30,24,54,1) 80%, rgba(29,22,59,1) 95%);  
+  cursor: pointer;
+}
+.top-bar-icon-container {
+  position: relative;
+}
+.top-icon-badge {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+}

@@ -19,8 +19,8 @@ export default function TopBar() {
           </div>
           <div className="top-bar-icon-container">
             <Settings />
-            <span className="top-icon-badge">2</span>
           </div>
+          <img src="https://media-exp1.licdn.com/dms/image/C5603AQEvo56xcyw2dw/profile-displayphoto-shrink_200_200/0/1576117536537?e=1639612800&v=beta&t=jDIicRXu3DkLiW2tA5MQXMuNfL5eFMz7d8qeCU0bj7A" alt="avatar" className="top-avatar" />
         </div>
       </div>
     </div>

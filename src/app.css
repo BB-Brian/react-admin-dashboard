@@ -1,6 +1,14 @@
-.App {
+/* .App {
   width: 100vw;
   height: 100vh;
   background: rgb(12,8,28);
   background: linear-gradient(138deg, rgba(12,8,28,1) 54%, rgba(30,24,54,1) 80%, rgba(29,22,59,1) 95%);  
+  background-color: white;
+} */
+.main-container {
+  display: flex;
+}
+.others {
+  flex: 4;
+  background-color: purple;
 }

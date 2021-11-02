@@ -1,11 +1,11 @@
 import "./sidebar.css";
-import SideBarMenu from "./SideBarMenu";
+import SidebarMenu from "./SidebarMenu";
 
-export default function SideBar() {
+export default function Sidebar() {
   return (
-    <div className="side-bar">
-      <div className="side-bar-wrapper">
-        <SideBarMenu />
+    <div className="sidebar">
+      <div className="sidebar-wrapper">
+        <SidebarMenu />
       </div>
     </div>
   )

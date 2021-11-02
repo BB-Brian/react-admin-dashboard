@@ -1,14 +1,14 @@
-import { dashboardMenuOptions, quickMenuOptions, notificationsMenuOptions, staffMenuOptions } from "./sideBarOptions";
+import { dashboardMenuOptions, quickMenuOptions, notificationsMenuOptions, staffMenuOptions } from "./sidebarOptions";
 import "./sidebar.css";
 
-const SideBarMenu = () => {
+const SidebarMenu = () => {
   return (
     <>
-      <div className="side-bar-menu">
-        <h3 className="side-bar-title">Dashboard</h3>
-        <ul className="side-bar-list">
+      <div className="sidebar-menu">
+        <h3 className="sidebar-title">Dashboard</h3>
+        <ul className="sidebar-list">
         {dashboardMenuOptions.map((item, index) => (
-          <li key={`${index}`} className="side-bar-list-item">
+          <li key={`${index}`} className="sidebar-list-item">
             {item.icon}
             {item.label}
           </li>
@@ -16,11 +16,11 @@ const SideBarMenu = () => {
         </ul>
       </div>
 
-      <div className="side-bar-menu">
-      <h3 className="side-bar-title">Quick</h3>
-      <ul className="side-bar-list">
+      <div className="sidebar-menu">
+      <h3 className="sidebar-title">Quick</h3>
+      <ul className="sidebar-list">
         {quickMenuOptions.map((item, index) => (
-          <li key={`${index}`} className="side-bar-list-item">
+          <li key={`${index}`} className="sidebar-list-item">
             {item.icon}
             {item.label}
           </li>
@@ -28,11 +28,11 @@ const SideBarMenu = () => {
       </ul>
       </div>
 
-      <div className="side-bar-menu">
-      <h3 className="side-bar-title">Notifications</h3>
-      <ul className="side-bar-list">
+      <div className="sidebar-menu">
+      <h3 className="sidebar-title">Notifications</h3>
+      <ul className="sidebar-list">
         {notificationsMenuOptions.map((item, index) => (
-          <li key={`${index}`} className="side-bar-list-item">
+          <li key={`${index}`} className="sidebar-list-item">
             {item.icon}
             {item.label}
           </li>
@@ -40,11 +40,11 @@ const SideBarMenu = () => {
       </ul>
       </div>
       
-      <div className="side-bar-menu">
-      <h3 className="side-bar-title">Staff</h3>
-      <ul className="side-bar-list">
+      <div className="sidebar-menu">
+      <h3 className="sidebar-title">Staff</h3>
+      <ul className="sidebar-list">
         {staffMenuOptions.map((item, index) => (
-          <li key={`${index}`} className="side-bar-list-item">
+          <li key={`${index}`} className="sidebar-list-item">
             {item.icon}
             {item.label}
           </li>
@@ -55,4 +55,4 @@ const SideBarMenu = () => {
   );
 };
 
-export default SideBarMenu;
+export default SidebarMenu;

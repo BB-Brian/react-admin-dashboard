@@ -1,0 +1,1 @@
+export const BOX_SHADOW_COLOR = "RGBA(0, 0, 0, 0,75)"

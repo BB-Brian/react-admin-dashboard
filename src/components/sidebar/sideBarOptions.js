@@ -14,66 +14,80 @@ import {
 } from "@mui/icons-material";
 
 
-export const dashboardMenuOptions = [
+export const dashboardMenu = [
   {
     label: "Home",
-    icon: <LineStyle className="sidebar-icon" />
+    icon: <LineStyle className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Analytics",
-    icon: <Timeline className="sidebar-icon" />
+    icon: <Timeline className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Sales",
-    icon: <TrendingUp className="sidebar-icon" />
+    icon: <TrendingUp className="sidebar-icon" />,
+    path: "/"
   }
 ];
 
-export const quickMenuOptions = [
+export const quickMenu = [
   {
     label: "Users",
-    icon: <PermIdentity className="sidebar-icon" />
+    icon: <PermIdentity className="sidebar-icon" />,
+    path: "users"
   },
   {
     label: "Products",
-    icon: <Storefront className="sidebar-icon" />
+    icon: <Storefront className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Transactions",
-    icon: <AttachMoney className="sidebar-icon" />
+    icon: <AttachMoney className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Reports",
-    icon: <BarChart className="sidebar-icon" />
+    icon: <BarChart className="sidebar-icon" />,
+    path: "/"
   }
 ];
 
-export const notificationsMenuOptions = [
+export const notificationsMenu = [
   {
     label: "Mail",
-    icon: <MailOutline className="sidebar-icon" />
+    icon: <MailOutline className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Feedback",
-    icon: <DynamicFeed className="sidebar-icon" />
+    icon: <DynamicFeed className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Labels",
-    icon: <ChatBubbleOutline className="sidebar-icon"/>
+    icon: <ChatBubbleOutline className="sidebar-icon"/>,
+    path: "/"
   }
 ];
 
-export const staffMenuOptions = [
+export const staffMenu = [
   {
     label: "Manage",
-    icon: <WorkOutline className="sidebar-icon" />
+    icon: <WorkOutline className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Analytics",
-    icon: <Timeline className="sidebar-icon" />
+    icon: <Timeline className="sidebar-icon" />,
+    path: "/"
   },
   {
     label: "Report",
-    icon: <Report className="sidebar-icon" />
+    icon: <Report className="sidebar-icon" />,
+    path: "/"
   }
 ];
+

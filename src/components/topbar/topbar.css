@@ -4,6 +4,7 @@
   background-color: whitesmoke;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .top-bar-wrapper {
   height: 100%;

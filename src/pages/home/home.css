@@ -1,4 +1,12 @@
 .home {
   flex: 4;
-  margin: 20px;
+  margin: 20px 20px 20px 195px;
+}
+
+.home-widgets {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-widgets > div {
+  margin: 10px;
 }

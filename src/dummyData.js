@@ -59,6 +59,7 @@ export const newMembersData = [
     jobTitle: "Software Enginner",
     image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
     date: "Nov 1, 2021",
+    dob: "11/04/1992",
     amount: 754.99,
     transaction: 60,
     status: "active"

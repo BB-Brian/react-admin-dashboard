@@ -6,7 +6,7 @@ import {
   CartesianGrid, 
   Tooltip, 
   ResponsiveContainer 
-} from 'recharts';
+} from "recharts";
 import { DARK_MODE_CHART_FONT_LINE_COLOR } from "../../shared/sharedStyles";
 
 export default function chart({ title, data, dataKey, grid}) {

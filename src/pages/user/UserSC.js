@@ -73,12 +73,12 @@ const UserSC = styled.div`
    height: 40px;
    border-radius: 50%;
    object-fit: cover;
+   margin-right: 20px;
  }
 
  .user-show-top-title {
    display: flex;
    flex-direction: column;
-   margin-left: 20px;
  }
 
  .user-show-username, .user-show-title {
@@ -118,7 +118,9 @@ const UserSC = styled.div`
   justify-content: space-between;
   margin-top: 20px;
  }
-
+ .user-update-left {
+   margin-right: 20px;
+ }
  .user-update-item {
   display: flex;
   flex-direction: column;

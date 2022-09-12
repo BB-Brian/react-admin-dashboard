@@ -140,4 +140,19 @@ export const newMembersData = [
     // location: "Seattle, WA",
     // phoneNumber: "+1 206-789-9877"
   },
+  {
+    id: 7,
+    name: "Bread Basket",
+    username: "bbask",
+    email: "breadbaskit@email.com",
+    jobTitle: "Professionally Unemployed",
+    image: "https://images.pexels.com/photos/356147/pexels-photo-356147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    date: "Nov 4, 2021",
+    dob: "12/12/1991",
+    amount: 1999.99,
+    transaction: 60,
+    status: "active",
+    location: "Los Angeles, CA",
+    phoneNumber: "+1 213-644-3478"
+  },
 ];

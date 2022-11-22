@@ -62,7 +62,9 @@ export const newMembersData = [
     dob: "11/04/1992",
     amount: 754.99,
     transaction: 60,
-    status: "active"
+    status: "active",
+    location: "Melbourne, Australia",
+    phoneNumber: "+61 464-356-745"
   },
   {
     id: 2,
@@ -72,10 +74,12 @@ export const newMembersData = [
     jobTitle: "UX/UI Designer",
     image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     date: "Sept 20, 2021",
+    dob: "05/10/1980",
     amount: 460.00,
     transaction: 180,
-    status: "disabled"
-  },
+    status: "disabled",
+    location: "Ulaanbaatar, Mongolia",
+    phoneNumber: "+976 66-467743"  },
   {
     id: 3,
     name: "Jisoo Rose",
@@ -84,9 +88,12 @@ export const newMembersData = [
     jobTitle: "QA Enginner",
     image: "https://images.pexels.com/photos/3616937/pexels-photo-3616937.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     date: "Sept 19, 2021",
+    dob: "09/20/1995",
     amount: 523.49,
     transaction: 6000,
-    status: "active"
+    status: "active",
+    location: "Seoul, Korea",
+    phoneNumber: "+82 2-312-3456"
   },
   {
     id: 4,
@@ -96,9 +103,12 @@ export const newMembersData = [
     jobTitle: "devOps Engineer",
     image: "https://images.pexels.com/photos/9424119/pexels-photo-9424119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     date: "Nov 6, 2021",
+    dob: "07/23/1986",
     amount: 32.00,
     transaction: 120,
-    status: "inactive"
+    status: "inactive",
+    location: "New York City, NY",
+    phoneNumber: "+1 646-583-2848"
   },
   {
     id: 5,
@@ -108,9 +118,12 @@ export const newMembersData = [
     jobTitle: "Game Dev",
     image: "https://images.pexels.com/photos/356147/pexels-photo-356147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     date: "Nov 4, 2021",
+    dob: "12/12/1991",
     amount: 1999.99,
     transaction: 60,
-    status: "active"
+    status: "active",
+    location: "Los Angeles, CA",
+    phoneNumber: "+1 213-644-3478"
   },
   {
     id: 6,
@@ -120,8 +133,26 @@ export const newMembersData = [
     jobTitle: "Photographer",
     image: "https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     date: "Oct 31, 2021",
+    dob: "08/07/1986",
     amount: 10000.99,
     transaction: 60,
-    status: "inactive"
+    status: "inactive",
+    // location: "Seattle, WA",
+    // phoneNumber: "+1 206-789-9877"
+  },
+  {
+    id: 7,
+    name: "Bread Basket",
+    username: "bbask",
+    email: "breadbaskit@email.com",
+    jobTitle: "Professionally Unemployed",
+    image: "https://images.pexels.com/photos/356147/pexels-photo-356147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    date: "Nov 4, 2021",
+    dob: "12/12/1991",
+    amount: 1999.99,
+    transaction: 60,
+    status: "active",
+    location: "Los Angeles, CA",
+    phoneNumber: "+1 213-644-3478"
   },
 ];

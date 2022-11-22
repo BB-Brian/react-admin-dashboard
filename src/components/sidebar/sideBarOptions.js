@@ -41,7 +41,7 @@ export const quickMenu = [
   {
     label: "Products",
     icon: <Storefront className="sidebar-icon" />,
-    path: "/"
+    path: "/products"
   },
   {
     label: "Transactions",

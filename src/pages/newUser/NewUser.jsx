@@ -4,7 +4,7 @@ export default function NewUser() {
   return (
     <NewUserSC>
       <h1 className="new-user-form">New User</h1>
-        <form action="" className="new-user-item">
+        <form action="" className="new-user-form">
           <div className="new-user-item">
             <label>Username</label>
             <input type="text" placeholder="Full Name" />
@@ -32,12 +32,12 @@ export default function NewUser() {
           <div className="new-user-item">
             <label>Gender</label>
             <div className="new-user-gender">
-              <input type="text" name="gender" id="male" value="male" />
+              <input type="radio" name="gender" id="male" value="male" />
               <label for="male">Male</label>
-              <input type="text" name="gender" id="female" value="female" />
-              <label for="male">Female</label>
-              <input type="text" name="gender" id="other" value="other" />
-              <label for="male">Other</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="other" value="other" />
+              <label for="other">Other</label>
             </div>
           </div>
           <div className="new-user-item">
@@ -47,6 +47,7 @@ export default function NewUser() {
               <option value="No">No</option>
             </select>
           </div>
+          <button className="new-user-button">Create</button>
         </form>
     </NewUserSC>
   )

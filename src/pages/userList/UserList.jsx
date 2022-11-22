@@ -17,7 +17,9 @@ export default function UserList() {
   const columns = [
     { field: "id", headerName: "ID", width: 130 },
     {
-      field: "username", headerName: "Username", renderCell: (params) => {
+      field: "username", 
+      headerName: "Username", 
+      renderCell: (params) => {
         return (
           <div className="user-list">
             <img className="user-list-image" src={params.row.image} alt={params.row.username} />

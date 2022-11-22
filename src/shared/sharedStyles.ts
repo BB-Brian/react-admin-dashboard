@@ -3,6 +3,7 @@ export const CHART_GRID_COLOR = "#e0dfdf";
 
 export const DARK_MODE_CHART_FONT_LINE_COLOR = "#837eec"; //light grayish blue
 export const DARK_MODE_FONT_COLOR = "#c3c3c3"; //smokey white
+export const DARK_MODE_PLACEHOLDER_COLOR = "#8e8e8e"; //smokey white
 export const DARK_MODE_MODULE_BACKGROUND_COLOR = "rgba(255, 255, 255, .15)"; //white transparent
 export const DARK_MODE_MODULE_BOX_SHADOW = "0px 0px 15px -5px rgba(0, 0, 0, 0.75)"; //black fade out
 

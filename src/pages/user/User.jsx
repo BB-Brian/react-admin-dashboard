@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   CalendarToday,
   Mail,
@@ -67,7 +68,9 @@ return (
   <UserSC>
     <div className="user-title-container">
       <h1 className="user-title">Edit User</h1>
-      <button className="user-add-button">Create</button>
+      <Link to="/user/newUser">
+        <button className="user-add-button">Create</button>
+      </Link>
     </div>
     <div className="user-container">
       <div className="user-show">

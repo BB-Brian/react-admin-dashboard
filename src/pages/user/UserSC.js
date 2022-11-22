@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {
   DARK_MODE_FONT_COLOR,
+  DARK_MODE_PLACEHOLDER_COLOR,
   DARK_MODE_MODULE_BACKGROUND_COLOR,
   DARK_MODE_MODULE_BOX_SHADOW,
   MODULE_BACKDROP_BLUR,
@@ -137,6 +138,12 @@ const UserSC = styled.div`
    height: 30px;
    border-bottom: 1px solid gray;
    background-color: transparent;
+ }
+ input.user-update-input::placeholder, input.user-update-input {
+  color: ${DARK_MODE_PLACEHOLDER_COLOR};
+ }
+ .input.user-update-input {
+  color: white;
  }
 
  .user-update-right {

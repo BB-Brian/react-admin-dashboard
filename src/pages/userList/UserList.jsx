@@ -4,6 +4,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { newMembersData } from "../../dummyData.js";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import { Link } from "react-router-dom";
+import { DARK_MODE_MODULE_BACKGROUND_COLOR } from "../../shared/sharedStyles";
 
 export default function UserList() {
 
@@ -16,7 +17,9 @@ export default function UserList() {
   const columns = [
     { field: "id", headerName: "ID", width: 130 },
     {
-      field: "username", headerName: "Username", renderCell: (params) => {
+      field: "username", 
+      headerName: "Username", 
+      renderCell: (params) => {
         return (
           <div className="user-list">
             <img className="user-list-image" src={params.row.image} alt={params.row.username} />
@@ -72,7 +75,7 @@ export default function UserList() {
           rowsPerPageOptions={[5]}
           checkboxSelection
           disableSelectionOnClick
-          style={{ borderRadius: 15, backgroundColor: "white" }} />
+          style={{ borderRadius: 15, backgroundColor: DARK_MODE_MODULE_BACKGROUND_COLOR, color: "white" }} />
       </div>
     </UserListSC>
   )

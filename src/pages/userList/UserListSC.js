@@ -5,6 +5,16 @@ const UserListSC = styled.div`
   margin: 20px 20px 20px 195px;
   height: 100vh;
 
+  .MuiCheckbox-root > .MuiSvgIcon-root, 
+  .MuiToolbar-root > .MuiTablePagination-displayedRows,
+  .MuiDataGrid-iconButtonContainer > button  {
+    color: #c3c3c3;
+  }
+
+  .MuiTablePagination-actions > button {
+    color: white;
+  }
+
   a {
 
   }

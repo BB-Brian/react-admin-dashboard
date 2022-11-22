@@ -156,3 +156,14 @@ export const newMembersData = [
     phoneNumber: "+1 213-644-3478"
   },
 ];
+
+export const productData = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    image: "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    stock: 123,
+    status: "active",
+    price: "$120.00"
+  }
+];
